@@ -1,9 +1,11 @@
 import React from 'react';
 import '../App.css';
+import Navbar from "./Navbar";
 
 function Header() {
     return (
         <div className='banner'>
+            <Navbar/>
             <div className='banner__content'>
                 <div className='container'>
                     <h3 className='csi-subtitle'>Hot & Spicy</h3>
