@@ -1,21 +1,48 @@
 .navbar{
-    position : absolute;
+    position: absolute;
     top:0;
     left: 0;
     width: 100%;
 }
+.scrolled{
+    top: 0;
+    margin-top: -.8rem;
+    height: 7rem;
+    position: fixed;
+    background-color: #212739B3;
+    animation-name: fadeInDown;
+    transform-origin: center;
+    animation-duration: .8s;
+    animation-timing-function: linear;
+}
+@keyframes fadeInDown{
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0,-100%,0);
+        transform: translate3d(0,-100%,0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
 .navbar-text{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     width: 1400px;
     margin: 0 auto;
+    margin-top: -1rem;
 }
 .logo{
     width: 40%;
 }
 .logo_img{
-    margin-top: 0px;
+    margin-top: 1.2rem;
     width: 180px;
+}
+.scrolled .logo_img{
+    margin-top: 1.6rem;
 }
 .btn_area{
     margin-top: 1.7rem;
@@ -51,6 +78,7 @@
 }
 .navbar_ul .btn_area .navbar_btn{
     text-decoration: none;
+    margin-top: .7rem;
 }
 .navbar_btn {
     background-color: #e62b4c;
@@ -76,6 +104,139 @@
     padding: 16px 14px;
     text-decoration: none;
     color: #fff;
-   
+    display: inline-flex;
+}
+.navbar_ul .li2 a:hover{
+    color: #e62b4c;
+    transition-duration: .4s;
+}
+.insideLiUl{
+    display: none;
+    list-style-type: none;
+    padding-top: .3rem;
+}
+.navbar_ul .li1 .li1a:hover{
+    color: #e62b4c;
+    transition-duration: .4s;
+}
+.navbar_ul .li1:hover > .insideLiUl{
+    background-color: #e62b4c;
+    display: inline-block;
+    width: 14rem;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: -7.4rem;
+    transition-duration: 2s;
+}
+.insideLiUl .ulli{
+    margin: 0px;
+    color: #fff;
+    font-family: Lato,sans-serif;
+    font: 400;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+.insideLiUl .ulli a{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    
+    color: #fff;
+    font-family: Lato,sans-serif;
+    font: 400;
+    font-weight: 100;
+    font-size: 1.1rem;
+    margin-left: 0rem;
+}
+.insideLiUl .ulli:hover{
+    transition-duration: .5s;
+    margin-left: 1.8rem;
+}
+.ullii{
+    display: inline-block;
+    width: 100%;
+}.ulliii{
+    display: inline-block;
+    width: 100%;
+}
+.insideLiUll{
+    display: none;
+    list-style-type: none;
+    padding-top: .3rem;
+}.insideLiUll .ullii{
+    margin: 0px;
+    color: #fff;
+    font-family: Lato,sans-serif;
+    font: 400;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}.insideLiUll .ullii a{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+    font-family: Lato,sans-serif;
+    font: 400;
+    font-weight: 100;
+    font-size: 1.1rem;
+    margin-left: 0rem;
+}
+.ulli1:hover > .insideLiUll{
+    background-color: #e62b4c;
+    transition-duration: .4s;
+    display: inline-block;
+    width: 14rem;
+    position: absolute;
+    margin-top: 0rem;
+    margin-left: 7.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.insideLiUll .ullii:hover{
+    transition-duration: .5s;
+    margin-left: 1.8rem;
+    
+    
+}
+.ulli{
+    display: inline-block;
+    width: 14rem;
+}
+
+.insideLiUll1{
+    display: none;
+    list-style-type: none;
+    padding-top: .3rem;
+}.insideLiUll1 .ulliii{
+    margin: 0px;
+    color: #fff;
+    font-family: Lato,sans-serif;
+    font: 400;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}.insideLiUll1 .ulliii a{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+    font-family: Lato,sans-serif;
+    font: 400;
+    font-weight: 100;
+    font-size: 1.1rem;
+    margin-left: 0rem;
+}.ulli2:hover > .insideLiUll1{
+    background-color: #e62b4c;
+    transition-duration: .4s;
+    display: inline-block;
+    width: 14rem;
+    position: absolute;
+    margin-top: 0rem;
+    margin-left: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}.insideLiUll1 .ulliii:hover{
+    transition-duration: .5s;
+    margin-left: 1.8rem;
+    
+    
 }
 
