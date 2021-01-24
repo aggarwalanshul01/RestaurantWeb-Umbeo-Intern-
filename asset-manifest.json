@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RestaurantWeb-Umbeo-Intern-/static/css/main.738d0314.chunk.css",
+    "main.js": "/RestaurantWeb-Umbeo-Intern-/static/js/main.8387ef1b.chunk.js",
+    "main.js.map": "/RestaurantWeb-Umbeo-Intern-/static/js/main.8387ef1b.chunk.js.map",
+    "runtime-main.js": "/RestaurantWeb-Umbeo-Intern-/static/js/runtime-main.ddef833b.js",
+    "runtime-main.js.map": "/RestaurantWeb-Umbeo-Intern-/static/js/runtime-main.ddef833b.js.map",
+    "static/js/2.74433481.chunk.js": "/RestaurantWeb-Umbeo-Intern-/static/js/2.74433481.chunk.js",
+    "static/js/2.74433481.chunk.js.map": "/RestaurantWeb-Umbeo-Intern-/static/js/2.74433481.chunk.js.map",
+    "index.html": "/RestaurantWeb-Umbeo-Intern-/index.html",
+    "static/css/main.738d0314.chunk.css.map": "/RestaurantWeb-Umbeo-Intern-/static/css/main.738d0314.chunk.css.map",
+    "static/js/2.74433481.chunk.js.LICENSE.txt": "/RestaurantWeb-Umbeo-Intern-/static/js/2.74433481.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/RestaurantWeb-Umbeo-Intern-/static/media/banner-bg.e0258126.jpg",
+    "static/media/MenuOfTheDay.css": "/RestaurantWeb-Umbeo-Intern-/static/media/menuOfDay.b27d3fba.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ddef833b.js",
+    "static/js/2.74433481.chunk.js",
+    "static/css/main.738d0314.chunk.css",
+    "static/js/main.8387ef1b.chunk.js"
+  ]
+}
